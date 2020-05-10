@@ -25,7 +25,7 @@
       <!-- Add comment widgets here -->
     </div>
 
-    <Author class="post-author" />
+    <Author :show-title="true" class="post-author" />
   </Layout>
 </template>
 
@@ -68,6 +68,7 @@ query Post ($id: ID!) {
     }
     description
     content
+    cover_image (width: 860, blur: 10)
   }
 }
 </page-query>
