@@ -11,7 +11,7 @@ description: "Rundown of my current vim setup"
 I started learning vim sometime ago and now use it all the time.
 
 I use the following plugins:
-* [FZF](https://github.com/junegunn/fzf) - fuzzy file finding
+* [FZF](https://github.com/junegunn/fzf) - for fuzzy file finding
 * [Ripgrep](https://github.com/BurntSushi/ripgrep) - for pattern searching
 * [COC](https://github.com/neoclide/coc.nvim) - for code completion
 * [vim-airline](https://github.com/vim-airline/vim-airline) - for status bar
