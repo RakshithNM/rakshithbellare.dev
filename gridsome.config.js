@@ -6,7 +6,10 @@
 
 module.exports = {
   siteName: 'rakshith bellare\'s blog',
-  siteDescription: 'learnings, findings, collection of ideas and most things web',
+  siteDescription: 'learnings, most things web',
+  siteUrl: 'https://rakshithbellare.dev',
+  titleTemplate: `%s | rakshithbellare`,
+  icon: 'src/favicon.png',
 
   templates: {
     Post: '/:title',

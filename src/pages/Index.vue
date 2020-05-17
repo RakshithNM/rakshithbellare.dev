@@ -44,7 +44,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'rakshith bellare\'s blog'
+    title: 'learnings, most things web'
   }
 }
 </script>
