@@ -34,24 +34,32 @@ export default function (Vue, { router, head, isClient }) {
       content: copyRightNotice
     },
     {
-      key:"og:type",
+      key: "og:type",
       property: "og:type",
       content: 'article'
     },
     {
-      key:"og:description",
+      key: "og:description",
       property: "og:description",
       content: config.siteDescription
     },
     {
-      key:"og:image",
+      key: "og:image",
       property: "og:image",
       content: 'https://github.com/RakshithNM.png'
     },
     {
       property: "og:site_name",
       content: config.siteName
-    }
+    },
+    {
+      key: "twitter:card",
+      content: "summary"
+    },
+    {
+      key: "twitter:creator",
+      content: "@rakshithbellare"
+    },
   );
 
   // Set default layout as a global component
