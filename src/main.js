@@ -11,6 +11,10 @@ import config from '../gridsome.config'
 
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 export default function (Vue, { router, head, isClient }) {
+  head.link.push({
+    rel: 'me',
+    href: 'https://twitter.com/rakshithbellare'
+  });
 
   let copyRightNotice = `\u00a9 rakshithbellare, ${ new Date().getFullYear() }. All rights reservered`;
 
