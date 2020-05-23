@@ -16,6 +16,16 @@ export default function (Vue, { router, head, isClient }) {
     href: 'https://twitter.com/rakshithbellare'
   });
 
+  head.link.push({
+    rel: 'webmention',
+    href: 'https://webmention.io/rakshithbellare.dev/webmention'
+  });
+
+  head.link.push({
+    rel: 'pingback',
+    href: 'https://webmention.io/rakshithbellare.dev/xmlrpc'
+  });
+
   let copyRightNotice = `\u00a9 rakshithbellare, ${ new Date().getFullYear() }. All rights reservered`;
 
   head.meta.push(
