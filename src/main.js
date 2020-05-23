@@ -25,7 +25,6 @@ export default function (Vue, { router, head, isClient }) {
       content: 'Rakshith Bellare'
     },
     {
-      key: 'description',
       name: 'description',
       content: config.siteDescription
     },
@@ -34,17 +33,14 @@ export default function (Vue, { router, head, isClient }) {
       content: copyRightNotice
     },
     {
-      key: "og:type",
       property: "og:type",
       content: 'article'
     },
     {
-      key: "og:description",
       property: "og:description",
       content: config.siteDescription
     },
     {
-      key: "og:image",
       property: "og:image",
       content: 'https://github.com/RakshithNM.png'
     },
