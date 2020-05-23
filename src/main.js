@@ -49,6 +49,10 @@ export default function (Vue, { router, head, isClient }) {
       content: config.siteName
     },
     {
+      property: "og:title",
+      content: "rakshithbellare's blog"
+    },
+    {
       name: "twitter:card",
       content: "summary"
     },
@@ -56,6 +60,18 @@ export default function (Vue, { router, head, isClient }) {
       name: "twitter:creator",
       content: "@rakshithbellare"
     },
+    {
+      name: "twitter:title",
+      content: "rakshithbellare's blog"
+    },
+    {
+      name: "twitter:description",
+      content: config.siteDescription
+    },
+    {
+      name: "twitter:image",
+      content: "https://github.com/RakshithNM.png"
+    }
   );
 
   // Set default layout as a global component
