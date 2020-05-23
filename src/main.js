@@ -53,11 +53,11 @@ export default function (Vue, { router, head, isClient }) {
       content: config.siteName
     },
     {
-      key: "twitter:card",
+      name: "twitter:card",
       content: "summary"
     },
     {
-      key: "twitter:creator",
+      name: "twitter:creator",
       content: "@rakshithbellare"
     },
   );
