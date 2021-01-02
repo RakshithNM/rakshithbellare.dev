@@ -43,4 +43,4 @@ hi! EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
 5. Create a directory for your presentation.
 6. `cd` into the directory and open all files using `vim *`.
 7. Now you use left and right arrow keys to navigate between the slides.
-8. You can also install a plugin called [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode) - this lets you create tables as shown in the which is a screenshot of a slide 
+8. You can also install a plugin called [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode) - this lets you create tables as shown in the image which is a screenshot of a slide 
